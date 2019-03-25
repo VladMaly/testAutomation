@@ -14,7 +14,8 @@ deploy:
   secret_access_key: "kGGNeSi3NTv3AfXPVI1J1ZCwwv9LeLhYvw2EiJmV"
   bucket: "vmaly-travis-test"
   region: "us-east-1"
-  local_dir: build
+  local_dir: ./build
+  skip_cleanup: true
 branches:
   only:
     - master
