@@ -1,0 +1,6 @@
+deploy:
+  provider: s3
+  access_key_id: "AKIAJX5QDRAKU4V5L24Q"
+  secret_access_key: "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"
+  bucket: "vmaly-travis-test"
+  region: "us-east-1"
