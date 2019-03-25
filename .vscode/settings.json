@@ -1,0 +1,8 @@
+{
+    "beautify.options": {
+        "indent_size": 2,
+        "preserve_newlines": true
+    },
+    "prettier.printWidth": 200,
+    "prettier.tabWidth": 4
+}
