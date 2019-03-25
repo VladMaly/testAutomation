@@ -4,3 +4,6 @@ deploy:
   secret_access_key: "kGGNeSi3NTv3AfXPVI1J1ZCwwv9LeLhYvw2EiJmV"
   bucket: "vmaly-travis-test"
   region: "us-east-1"
+  language: node_js
+  node_js:
+    - node
